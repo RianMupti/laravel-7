@@ -13,10 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('crud/index');
+// });
 
-Route::get('home', function () {
-    return 'ini halaman home';
-});
+Route::get('/', 'MahasiswaController@index');
+
+Route::resource('mahasiswa', 'MahasiswaController');
