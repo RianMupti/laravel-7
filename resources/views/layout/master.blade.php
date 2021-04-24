@@ -24,10 +24,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="{{ url('/', []) }}">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-item nav-link active" href="{{ url('/', []) }}">Home</a>
+                    <a class="nav-item nav-link" href="{{ url('/mahasiswa/diagram/batang', []) }}">Diagram Batang</a>
+                    <a class="nav-item nav-link" href="{{ url('/mahasiswa/diagram/pie', []) }}">Diagram Pie</a>
                 </div>
             </div>
         </div>

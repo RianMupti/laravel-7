@@ -20,3 +20,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'MahasiswaController@index');
 
 Route::resource('mahasiswa', 'MahasiswaController');
+
+Route::get('/mahasiswa/diagram/batang', 'DiagramController@index');
+Route::get('/mahasiswa/diagram/pie', 'DiagramController@pie');

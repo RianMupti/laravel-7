@@ -98,6 +98,7 @@
       <div class="form-group row justify-content-end">
         <div class="col-sm-10">
           <button type="submit" class="btn btn-primary">Update</button>
+          <a href="{{ url('mahasiswa', [$mahasiswa->id]) }}" class="btn btn-warning">Kembali</a>
         </div>
       </div>
     </form>
