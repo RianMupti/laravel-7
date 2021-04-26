@@ -40,7 +40,7 @@ class MahasiswaController extends Controller
 
         $request->validate([
             'nama' => 'required',
-            'email' => 'required|email|unique:App\mahasiswa,email',
+            'email' => 'required|email|unique:App\Mahasiswa,email',
             'npm' => 'required|digits:5',
             'jenis_kelamin' => 'required',
             'tanggal_masuk' => 'required|date',
